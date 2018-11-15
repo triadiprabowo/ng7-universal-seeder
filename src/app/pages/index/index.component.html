@@ -1,0 +1,11 @@
+<div>
+	<h1 class="title">People Star Wars</h1>
+
+	<p *ngIf="$vm.isFetching">Please wait while fetching data...</p>
+
+	<ul class="list">
+		<li *ngFor="let list of $vm.data">{{list.name}} - {{list.gender}}</li>
+	</ul>
+
+	<app-layout-type-one [contents]="{title: 'Test title component section 1', subtitle: 'Test subtitle component section 1' }"></app-layout-type-one>
+</div>

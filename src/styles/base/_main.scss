@@ -1,0 +1,22 @@
+@import '../variables';
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, ul, ul li, div, section, header, footer,
+table, table tr, table tr td, nav, span {
+	margin: 0;
+	padding: 0;
+}

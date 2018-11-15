@@ -1,0 +1,24 @@
+$font__stack-normal: 'AxiataBook', -apple-system, BlinkMacSystemFont, Ubuntu, sans-serif;
+$font__stack-bold: 'AxiataBold', -apple-system, BlinkMacSystemFont, Ubuntu, sans-serif;
+
+
+$h1__base-size: 48px;
+$h1__base-font: $font__stack-bold;
+
+$h2__base-size: 36px;
+$h2__base-font: $font__stack-bold;
+
+$h3__base-size: 24px;
+$h3__base-font: $font__stack-bold;
+
+$h4__base-size: 16px;
+$h4__base-font: $font__stack-bold;
+
+$paragraph__lead-size: 20px;
+$paragraph__lead-font: $font__stack-normal;
+
+$body__text-size: 14px;
+$body__text-font: $font__stack-normal;
+
+$note__size: 10px;
+$note__font: $font__stack-normal;

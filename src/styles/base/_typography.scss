@@ -1,0 +1,50 @@
+@import '../variables';
+
+@font-face {
+	font-family: 'AxiataBook';
+	src: url('assets/fonts/AxiataBook.ttf') format('truetype'),
+		url('assets/fonts/AxiataBook.woff') format('woff'),
+		url('assets/fonts/AxiataBook.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'AxiataBookBold';
+	src: url('assets/fonts/AxiataBold.ttf') format('truetype'),
+		url('assets/fonts/AxiataBold.woff') format('woff'),
+		url('assets/fonts/AxiataBold.woff2') format('woff2');
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font__stack-bold;
+}
+
+h1 {
+	font-size: $h1__base-size;
+}
+
+h2 {
+	font-size: $h2__base-size;
+}
+
+h3 {
+	font-size: $h3__base-size;
+}
+
+h4 {
+	font-size: $h4__base-size;
+}
+
+.paragraph__lead {
+	font-size: $paragraph__lead-size;
+	font-family: $paragraph__lead-font;
+}
+
+p, li, pre, span, table tr th, table tr td, a, a:link {
+	font-size: $body__text-size;
+	font-family: $paragraph__lead-font;
+}
+
+.note {
+	font-size: $note__size;
+	font-family: $note__font;
+}

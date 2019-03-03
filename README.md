@@ -20,6 +20,7 @@ Angular 7 universal seeder with latest rxjs version > 6, support HTTP async proc
 	}
 
 #### Installation
+	git clone https://github.com/triadiprabowo/ng7-universal-seeder.git && cd ng7-unievrsal-seeder/
 
     npm install
 
